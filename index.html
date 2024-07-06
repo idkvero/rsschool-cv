@@ -17,7 +17,7 @@
           <a href="#skills">Skills</a>
         </li>
         <li class="list_item">
-          <a href="#code_examle">Code Examle</a>
+          <a href="#code_example">Code Example</a>
         </li>
         <li class="list_item">
           <a href="#education">Education</a>
@@ -43,6 +43,37 @@
       <h1>About me</h1>
       <p>I’m just starting my journey in the frontend. I am currently taking courses from EPAM.</p>
     </section>
+
+   
+      <section class="skills_code">
+      <h1>Skills</h1>
+      <ul class="list">
+        <li class="item">C++ basic</li>
+        <li class="item">Git</li>
+        <li class="item">HTML&CSS</li>
+      </ul>
+    </section>
+      <section class="about_me">
+       <h1 class="about_me" id="code_example">Code Example</h1>
+        <code>
+          <pre>
+          for (int i = 0; i < size-1; i++)
+          {
+            
+            if (arr[i] > 0 && arr[i + 1] < 0)
+            {
+              for (int j = i; j < size-1; j++)
+              {
+                arr[j] = arr[j+1];
+              }
+              size--;
+            }
+          }
+        </pre>
+       </code>
+     </section>
+    </section>
+   
   </main>
 </body>
 </html>
