@@ -2,11 +2,23 @@
     display: flex;
     flex-direction: row;
     justify-content: space-around;
+    margin: 10px 100px 100px;
     list-style-type: none;
 }
 
-.photo_name {
+.container {
     display: flex;
     flex-direction: row;
     justify-content: space-around;
+}
+
+.name {
+    line-height: 10px;
+    margin: 100px -100px 200px;
+}
+
+.inf {
+    display: flex;
+    flex-direction: column;
+   
 }
