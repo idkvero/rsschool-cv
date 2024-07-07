@@ -52,7 +52,6 @@ p {
 .sk {
     text-align: center;
 }
-
 .list {
     background-color: gainsboro;
     margin: 20px;
@@ -63,7 +62,6 @@ p {
 .item {
     text-align: center;
     padding: 10px 140px;
-   
     font-size: 20px;
     font-style: italic;
     list-style-type: none;
@@ -75,4 +73,11 @@ p {
     background-color: darkgray;
     font-style: oblique;
     font-family:serif;
+}
+
+.line {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    background-color: gainsboro;
 }
