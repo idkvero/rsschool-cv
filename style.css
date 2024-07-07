@@ -44,16 +44,35 @@ p {
     padding: 50px 10px;
 }
 
+.skills {
+    padding: 50px 10px;
+    background-color: gainsboro;
+    list-style-type: none;
+}
+.sk {
+    text-align: center;
+}
+
 .list {
     background-color: gainsboro;
     margin: 20px;
+    text-align: center;
 
 }
 
-.skills_code {
-     background-color: gainsboro;
-    display: flex;
-    flex-direction: row;
-    justify-content: space-around;
-    
+.item {
+    text-align: center;
+    padding: 10px 140px;
+   
+    font-size: 20px;
+    font-style: italic;
+    list-style-type: none;
+}
+
+.code {
+    padding: 10px;
+    margin: 20px;
+    background-color: darkgray;
+    font-style: oblique;
+    font-family:serif;
 }
