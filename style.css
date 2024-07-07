@@ -28,6 +28,7 @@ h1 {
 }
 h2 {
     font-size: 30px;
+    padding: 10px;
 }
 p {
     font-size: 14px;
@@ -84,4 +85,8 @@ p {
     flex-direction: row;
     justify-content: space-around;
     background-color: gainsboro;
+}
+
+.inf {
+    text-align: left;
 }
