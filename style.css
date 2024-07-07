@@ -1,0 +1,106 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: Times New Roman, Times, serif;
+    font-size: 18px;
+}
+a {
+    text-decoration:    none;
+    color: black;
+}
+.header {
+    background-color: gainsboro;
+    padding: 20px 0; 
+    width: 100%; 
+}   
+.nav_list {
+    display: flex;
+    justify-content: space-around;
+    list-style-type: none;
+}
+.name_photo {
+    display: flex;
+    flex-direction: row;
+}
+h1 {
+    font-size: 40px;
+    
+}
+h2 {
+    font-size: 30px;
+    padding: 10px;
+}
+p {
+    font-size: 14px;
+}
+.name {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 200px 30px;
+}
+
+.about_me {
+    background-color: gainsboro;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 50px 10px;
+}
+
+.skills {
+    padding: 50px 10px;
+    background-color: gainsboro;
+    list-style-type: none;
+}
+.sk {
+    text-align: center;
+}
+.list {
+    background-color: darkgray;
+    padding: 10px;
+    margin: 20px;
+    text-align: center;
+
+}
+
+.item {
+    text-align: center;
+    padding: 10px 140px;
+    font-size: 20px;
+    font-style: italic;
+    list-style-type: none;
+}
+
+.code {
+    padding: 10px;
+    margin: 20px;
+    background-color: darkgray;
+    font-style: oblique;
+    font-family:serif;
+}
+
+.line {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    background-color: gainsboro;
+}
+
+.inf {
+    text-align: left;
+}
+
+.footer {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    font-size: 20px;
+    border: 1px solid #ccc;
+}
+
+.tx {
+    padding: 20px;
+    font-size: 20px;
+    font-variant: small-caps;
+}
